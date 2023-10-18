@@ -9,6 +9,7 @@
         <meta name="title" content="Samrat Art Gallery | About Sketch Artworks">
         <meta name="description" content="Sketches by Samrat Subedi which captures the essence of the moment">
         <link rel="stylesheet" href="./style.css">
+        <style><?php include'style.css';?></style>
         <link rel="icon" href="images/favicon.png"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
         <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
