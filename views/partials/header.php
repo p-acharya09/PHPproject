@@ -12,7 +12,7 @@
         <link rel="icon" href="images/favicon.png"> 
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
         <script src="https://kit.fontawesome.com/6b52140ca6.js" crossorigin="anonymous"></script>
-
+        <script src="https://cdn.tailwindcss.com"></script>
         <!-- 
             Buttons should not go in Anchor tag but its used to link pages. It will be resolved
         -->

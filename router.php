@@ -7,7 +7,8 @@ $routes = [
     '/about' => 'controllers/about.php',
     '/contact' => 'controllers/contact.php',
     '/media' => 'controllers/media.php',
-    '/artdetail' => 'controllers/artdetail.php'
+    '/artdetail' => 'controllers/artdetail.php',
+    '/register' =>'controllers/registration/create.php',
 ];
 
 function routeToController($uri, $routes) {
