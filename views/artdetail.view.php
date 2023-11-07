@@ -3,10 +3,10 @@
         <!-- Art Detail Section -->
         <section class="art-detail">
             <div class="art-detail-section">
-                <h3>Nabin K Bhattarai</h3>
-                <p>Popular Nepali Singer</p>
+                <h3><?= $list['title']?></h3>
+                <p><?= $list['subtitle']?></p>
             </div>
-            <img title="Nabin K Bhattarai" src="./images/nkb.jpeg">
+            <img title="<?= $list['title']?>" src="./images/nkb.jpeg">
         </section>
 
         <section class="suggested">
@@ -33,13 +33,15 @@
                         <p>Lorem Ipsum </p>
                     </a>
                 </figure>
+                <?php foreach ($listall as $data): ?>
                 <figure>
                     <a href="./artdetail">
-                        <img title="Man Behind Wall" src="./images/mbtw.jpeg">
-                        <figcaption>Man Behind Wall</figcaption>
-                        <p>Man Behind Wall</p>
+                        <img title="<?= $data['title']?>" src="./images/mbtw.jpeg">
+                        <figcaption><?= $data['title']?></figcaption>
+                        <p><?= $data['subtitle']?></p>
                     </a>
                 </figure>
+                <?php endforeach ?>
             </div>
         </section>
 

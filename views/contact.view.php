@@ -6,9 +6,9 @@
             <div class="contact-us-detail">
                 <h3>Contact Us</h3>
                 <ul>
-                    <li>Phone: 1234567890</li>
-                    <li>Email: mycontact@contact.com</li>
-                    <li>Address: Kathmandu, Nepal</li>
+                    <li>Phone: <span><?= $contact['contact_phone'] ?></span></li>
+                    <li>Email: <span><?= $contact['contact_email'] ?></span></li>
+                    <li>Address: <span><?= $contact['contact_address'] ?></span></li>
                 </ul>
             </div>
             <img title="Location" src="./images/maps.png">    

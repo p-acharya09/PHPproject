@@ -3,9 +3,9 @@
             <h3>Contact Us</h3>
             <div class="footer-list">
                 <ul>
-                    <li>Email: <a href="#">mycontact@contact.com</a></li>
-                    <li>Phone: 1234567890</li>
-                    <li>Address: Kathmandu, Nepal</li>
+                    <li>Email: <a href="#"><?= $contact['contact_email'] ?></a></li>
+                    <li>Phone: <span><?= $contact['contact_phone'] ?></span></li>
+                    <li>Address: <?= $contact['contact_address'] ?></li>
                 </ul>
                 <div class="social">
                     <i class="fas fa-envelope"></i>
