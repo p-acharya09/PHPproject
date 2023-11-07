@@ -10,7 +10,7 @@
                             <i class="fas fa-list mr-3"></i> Media Form
                         </p>
                         <div class="leading-loose">
-                            <form method="POST" class="p-10 bg-white rounded shadow-xl">
+                            <form action="" method="POST" class="p-10 bg-white rounded shadow-xl">
                                 <div class="">
                                     <label class="block text-sm text-gray-600" for="title">Title</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="title" name="title" type="text" required="" placeholder="Title" aria-label="Name">
