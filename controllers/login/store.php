@@ -2,9 +2,14 @@
     $email = $_POST['email'];
     $password = $_POST['password'];
 
+    $config = require('config.php');
+    $db = new Database($config['database']);
+    $user = $db->query('select * from user')->fetch();
+
+
     $errors = [];
 
-    if($email !== 'admin@admin.com' || $password !== 'admin@admin'){
+    if($email !== $user['email'] || $password !== $user['password']){
         $errors['error'] = 'Wrong Credentials';
     }
 
