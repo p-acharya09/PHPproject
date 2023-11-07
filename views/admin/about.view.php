@@ -2,7 +2,7 @@
     
         <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
             <main class="w-full flex-grow p-6">
-                <h1 class="w-full text-3xl text-black pb-6">Forms</h1>
+                <h1 class="w-full text-3xl text-black pb-6">About Forms</h1>
 
                 <div class="flex flex-wrap">
                     <div class="w-full my-6 pr-0 lg:pr-2">
@@ -21,7 +21,7 @@
                                 </div>
                                 <div class="" hidden>
                                     <label class="block text-sm text-gray-600" for="artist_image">Artist Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="artist_image" name="artist_image" type="text" required="" placeholder="Artist Header" aria-label="Artist Header" value="samrat">
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="artist_image" name="artist_image" type="text" required="" placeholder="Artist Image" aria-label="Artist Image" value="samrat">
                                 </div>
                                 <div class="">
                                     <label class="block text-sm text-gray-600" for="artgallery_header">Art Gallery Header</label>
@@ -33,7 +33,7 @@
                                 </div>
                                 <div class="" hidden>
                                     <label class="block text-sm text-gray-600" for="artgallery_image">Art Gallery Image</label>
-                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="artgallery_image" name="artgallery_image" type="text" required="" placeholder="Art Gallery Header"  aria-label="Art Gallery Header" value="artgallery">
+                                    <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="artgallery_image" name="artgallery_image" type="text" required="" placeholder="Art Gallery Image"  aria-label="Art Gallery Image" value="artgallery">
                                 </div>
                                 
                                 <div class="mt-6">
