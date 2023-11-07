@@ -73,34 +73,15 @@
                     <p>Lorem Ipsum</p>
                     </a>
                 </figure>
+                <?php foreach($list as $data):?>
                 <figure>
                     <a href="artdetail">
-                    <img title="Thanos" src="./images/thanos.jpeg">
-                    <figcaption>Thanos</figcaption>
-                    <p>Marvel Cinematic Universe</p>
+                    <img title="<?= $data['title'] ?>" src="./images/thanos.jpeg">
+                    <figcaption><?= $data['title'] ?></figcaption>
+                    <p><?= $data['subtitle'] ?></p>
                     </a>
                 </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Wall Cry" src="./images/wallcry.jpeg">
-                    <figcaption>Wall Cry</figcaption>
-                    <p>Lorem Ipsum</p>
-                    </a>
-                </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Monalisa" src="./images/monalisa.jpeg">
-                    <figcaption>Monalisa</figcaption>
-                    <p>Famous Painting</p>
-                    </a>
-                </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Art" src="./images/art.jpeg">
-                    <figcaption>Art</figcaption>
-                    <p>Lorem Ipsum</p>
-                    </a>
-                </figure>
+                <?php endforeach ?>
             </div>
         </section>
 
