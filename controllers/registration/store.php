@@ -41,6 +41,6 @@
     if (!empty($errors)) {
         require 'views/registration/create.view.php';
     }else{
-        echo 'Make a New Admin Dashboard View Here When You Have Clear Idea About Backend';
+        require 'views/admin/form.view.php';
     }
 ?>

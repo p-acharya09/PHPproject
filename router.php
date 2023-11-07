@@ -9,6 +9,10 @@ $routes = [
     '/media' => 'controllers/media.php',
     '/artdetail' => 'controllers/artdetail.php',
     '/register' =>'controllers/registration/create.php',
+    '/adminforms' => 'views/admin/form.view.php',
+    '/admintables' => 'views/admin/list.view.php',
+    '/adminabout' => 'views/admin/about.view.php',
+    '/adminsettings' => 'views/admin/settings.view.php'
 ];
 
 function routeToController($uri, $routes) {
