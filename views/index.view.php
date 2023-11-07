@@ -30,20 +30,15 @@
                     <p>Lorem Ipsum </p>
                     </a>
                 </figure>
+                <?php foreach($limitedData as $data):?>
                 <figure>
                     <a href="artdetail">
-                    <img title="Horse" src="./images/horse.jpeg">
-                    <figcaption>Horse</figcaption>
-                    <p>Lorem Ipsum </p>
+                    <img title="<?= $data['title']?>" src="./images/horse.jpeg">
+                    <figcaption><?= $data['title']?></figcaption>
+                    <p><?= $data['subtitle']?> </p>
                     </a>
                 </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Man Behind Wall" src="./images/mbtw.jpeg">
-                    <figcaption>Man Behind Wall</figcaption>
-                    <p>Man Behind Wall</p>
-                    </a>
-                </figure>
+                <?php endforeach ?> 
             </div>
         </section>
 
@@ -66,20 +61,15 @@
                     <p>Lorem Ipsum</p>
                     </a>
                 </figure>
+                <?php foreach($limitedData as $data):?>
                 <figure>
                     <a href="artdetail">
-                    <img title="Monalisa" src="./images/monalisa.jpeg">
-                    <figcaption>Monalisa</figcaption>
-                    <p>Famous Painting</p>
+                    <img title="<?= $data['title']?>" src="./images/horse.jpeg">
+                    <figcaption><?= $data['title']?></figcaption>
+                    <p><?= $data['subtitle']?> </p>
                     </a>
                 </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Art" src="./images/art.jpeg">
-                    <figcaption>Art</figcaption>
-                    <p>Lorem Ipsum</p>
-                    </a>
-                </figure>
+                <?php endforeach ?> 
             </div>
         </section>
 
