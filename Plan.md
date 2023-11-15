@@ -1,5 +1,5 @@
-#Project Plan
-##Statement of Requirements and Project Goals
+# Project Plan
+## Statement of Requirements and Project Goals
 1. Contact Form Issues:
 Goal: Ensure that the contact form is functional and does not generate errors.
 Prioritized Feedback:
@@ -25,11 +25,11 @@ Goal: Improve the number of commits to foster good development practices.
 Prioritized Feedback:
 Encourage regular, smaller commits for better version control.
 
-##Techniques
+## Techniques
 1. Validate form inputs, check error logs, and test various submission scenarios.
 2. Use debug methods from Walkthrough videos to elimate errors.
 3. Use Markdown for clear formatting, include code examples and screenshots.
 4. Regular git commits and sync ups.
 5. Resolve design issues
 
-##Issues Resolve: Scheduled time 3 weeks
+## Issues Resolve: Scheduled time 3 weeks
