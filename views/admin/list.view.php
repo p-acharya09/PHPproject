@@ -6,7 +6,7 @@
 
                 <div class="w-full mt-6">
                     <p class="text-xl pb-3 flex items-center">
-                        <i class="fas fa-list mr-3"></i> Table Example
+                        <i class="fas fa-list mr-3"></i> Media List 
                     </p>
                     <div class="bg-white overflow-auto">
                         <table class="min-w-full bg-white">

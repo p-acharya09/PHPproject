@@ -7,7 +7,7 @@
                 <div class="flex flex-wrap">
                     <div class="w-full my-6 pr-0 lg:pr-2">
                         <p class="text-xl pb-6 flex items-center">
-                            <i class="fas fa-list mr-3"></i> About Form
+                            <i class="fas fa-list mr-3"></i> Settings Form
                         </p>
                         <div class="leading-loose">
                             <form class="p-10 bg-white rounded shadow-xl">
