@@ -1,3 +1,11 @@
+<?php
+    session_start();
+
+    if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true){
+    header('Location:/register');
+    exit;
+}
+?>
 <?php include'header.php'?>
     
         <div class="w-full h-screen overflow-x-hidden border-t flex flex-col">
@@ -47,3 +55,4 @@
         </div>
         
 <?php include'footer.php'?>
+

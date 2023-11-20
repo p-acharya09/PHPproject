@@ -9,14 +9,16 @@
 
     $errors = [];
 
-    if($email !== $user['email'] || $password !== $user['password']){
-        $errors['error'] = 'Wrong Credentials';
-    }
+    // Check if the entered username and password match
+    if (($_POST["email"] == $user["email"]) && ($_POST["password"] == $user["password"])) {
+        // Set session variables
+        session_start();
+        $_SESSION["authenticated"] = true;
 
-    // If there are errors, handle them here
-    if (!empty($errors)) {
-        require 'views/login/create.view.php';
-    }else{
-        require 'views/admin/form.view.php';
+        // Redirect to the admin forms page
+        header("Location: /adminforms");
+    } else {
+        echo "You are here";
     }
+    
 ?>
