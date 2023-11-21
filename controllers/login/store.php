@@ -18,7 +18,8 @@
         // Redirect to the admin forms page
         header("Location: /adminforms");
     } else {
-        echo "You are here";
+        $errors['error'] = "Invalid Email or Password";
+        require('views/login/create.view.php');
     }
     
 ?>

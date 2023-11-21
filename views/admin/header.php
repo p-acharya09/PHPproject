@@ -83,7 +83,7 @@
                     <i class="fas fa-table mr-3"></i>
                     List of Media Post
                 </a>
-                <a href="/register" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
+                <a href="/login" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
                     <i class="fas fa-sign-out-alt mr-3"></i>
                     Sign Out
                 </a>
