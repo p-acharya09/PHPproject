@@ -1,2 +1,2 @@
 <?php
-echo "Here";
+echo "404 not found";

@@ -1,6 +1,8 @@
 <?php
 
 $uri = parse_url($_SERVER['REQUEST_URI'])['path'];
+$uri_segments = explode('/', rtrim($uri, '/'));
+$id = end($uri_segments);
 
 $routes = [
     '/' => 'controllers/index.php',
@@ -10,6 +12,7 @@ $routes = [
     '/artdetail' => 'controllers/artdetail.php',
     '/login' =>'controllers/login/create.php',
     '/adminforms' => 'controllers/admin/form.php',
+    '/adminforms/'.$id => 'controllers/admin/editform.php',
     '/admintables' => 'controllers/admin/list.php',
     '/adminabout' => 'controllers/admin/about.php',
     '/adminsettings' => 'controllers/admin/settings.php'

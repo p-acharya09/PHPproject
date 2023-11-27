@@ -12,7 +12,6 @@
             </div>
         </section>
 
-
         <!-- Media Gallery -->
         <section class="media-gallery">
             <h2>Media Gallery</h2>
