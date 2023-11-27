@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
     move_uploaded_file($fileTmp, $fileDestination); 
     $title = $_POST['title'];
     $subtitle = $_POST['subtitle'];
-    $result = $db->query('INSERT INTO `media` (`title`, `subtitle`,`image`) VALUES (:title, :subtitle, :images)',[
+    $result = $db->query('INSERT INTO `media` (`title`, `subtitle`,`images`) VALUES (:title, :subtitle, :images)',[
         'title' => $title,
         'subtitle' => $subtitle,
         'images' => $fileDestination,
