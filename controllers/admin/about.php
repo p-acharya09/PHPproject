@@ -1,7 +1,6 @@
 <?php 
 $config = require('config.php');
 $db = new Database($config['database']);
-$about = $db->query('select * from about')->fetch();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $artist_header= $_POST['artist_header'];
@@ -16,6 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         'artgallery_description' => $artgallery_description
     ]);
 }
+$about = $db->query('select * from about')->fetch();
 
 require "views/admin/about.view.php";
 ?>

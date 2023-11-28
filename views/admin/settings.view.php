@@ -18,7 +18,7 @@
                             <i class="fas fa-list mr-3"></i> Settings Form
                         </p>
                         <div class="leading-loose">
-                            <form class="p-10 bg-white rounded shadow-xl">
+                            <form method="POST" action="" class="p-10 bg-white rounded shadow-xl">
                                 <div class="">
                                     <label class="block text-sm text-gray-600" for="website_name">Website Name</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="website_name" name="website_name" type="text" required="" placeholder="Website Name" aria-label="Website Name" value="<?= $settings['website_name'] ?>">
