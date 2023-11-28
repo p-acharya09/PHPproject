@@ -18,7 +18,7 @@
                             <i class="fas fa-list mr-3"></i> About Form
                         </p>
                         <div class="leading-loose">
-                            <form class="p-10 bg-white rounded shadow-xl">
+                            <form method="POST" action="" class="p-10 bg-white rounded shadow-xl">
                                 <div class="">
                                     <label class="block text-sm text-gray-600" for="artist_header">Artist Header</label>
                                     <input class="w-full px-5 py-1 text-gray-700 bg-gray-200 rounded" id="artist_header" name="artist_header" type="text" required="" placeholder="Artist Header" aria-label="Artist Header" value="<?= $about['artist_header']?>">
