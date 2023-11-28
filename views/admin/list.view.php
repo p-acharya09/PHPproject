@@ -32,7 +32,7 @@
                                     <td class="w-1/3 text-left py-3 px-4"><?=$data['title']?></td>
                                     <td class="w-1/3 text-left py-3 px-4"><?=$data['subtitle']?></td>
                                     <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="/adminforms/<?= $data['id']?>"><i class="fas fa-edit"></i></a></td>
-                                    <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="#"><i class="fa fa-trash"></i></a></td>
+                                    <td class="text-left py-3 px-4"><a class="hover:text-blue-500" href="/admindelete/<?= $data['id']?>"><i class="fa fa-trash"></i></a></td>
                                 </tr>
                                 <?php endforeach ?>
                             </tbody>
