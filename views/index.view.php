@@ -19,7 +19,7 @@
                 <?php foreach($limitedData as $data):?>
                 <figure>
                     <a href="./artdetail/<?=$data['id']?>">
-                    <img title="<?= $data['title']?>" src="./images/horse.jpeg">
+                    <img title="<?= $data['title']?>" src="<?= $data['images'] ?>">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>
                     </a>
@@ -36,7 +36,7 @@
                 <?php foreach($limitedDatas as $data):?>
                 <figure>
                     <a href="./artdetail/<?=$data['id']?>">
-                    <img title="<?= $data['title']?>" src="./images/horse.jpeg">
+                    <img title="<?= $data['title']?>" src="<?= $data['images'] ?>">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>
                     </a>
