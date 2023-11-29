@@ -16,23 +16,9 @@
         <section class="popular">
             <h2>Popular</h2>
             <div class="popular-art-figure">
-                <figure>
-                    <a href="artdetail">
-                    <img title="Nabin K Bhattarai" src="./images/nkb.jpeg">
-                    <figcaption>Nabin K Bhattarai</figcaption>
-                    <p>Popular Nepali Singer</p>
-                    </a>
-                </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Old Man" src="./images/ol.jpeg">
-                    <figcaption>Man</figcaption>
-                    <p>Lorem Ipsum </p>
-                    </a>
-                </figure>
                 <?php foreach($limitedData as $data):?>
                 <figure>
-                    <a href="artdetail">
+                    <a href="./artdetail/<?=$data['id']?>">
                     <img title="<?= $data['title']?>" src="./images/horse.jpeg">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>
@@ -47,23 +33,9 @@
         <section class="latest">
             <h2>Latest</h2>
             <div class="latest-art-figure">
+                <?php foreach($limitedDatas as $data):?>
                 <figure>
-                    <a href="artdetail">
-                    <img title="Thanos" src="./images/thanos.jpeg">
-                    <figcaption>Thanos</figcaption>
-                    <p>Marvel Cinematic Universe</p>
-                    </a>
-                </figure>
-                <figure>
-                    <a href="artdetail">
-                    <img title="Wall Cry" src="./images/wallcry.jpeg">
-                    <figcaption>Wall Cry</figcaption>
-                    <p>Lorem Ipsum</p>
-                    </a>
-                </figure>
-                <?php foreach($limitedData as $data):?>
-                <figure>
-                    <a href="artdetail">
+                    <a href="./artdetail/<?=$data['id']?>">
                     <img title="<?= $data['title']?>" src="./images/horse.jpeg">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>

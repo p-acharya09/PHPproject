@@ -18,7 +18,7 @@
             <div class="media-gallery-collection">
                 <?php foreach($list as $data):?>
                 <figure>
-                    <a href="artdetail">
+                    <a href="./artdetail/<?=$data['id']?>">
                     <img title="<?= $data['title'] ?>" src="<?= $data['images'] ?>">
                     <figcaption><?= $data['title'] ?></figcaption>
                     <p><?= $data['subtitle'] ?></p>
