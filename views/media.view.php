@@ -10,8 +10,8 @@
             <p>Captures the essence of the moment</p>
             <!-- Buttons for hero section -->
             <div class="hero-media-button">
-                <a href="media"><button class="primary-button">Explore</button></a>
-                <a href="contact"><button class="secondary-button">Contact Us</button></a>
+                <a href="<?= $proj_root ?>media"><button class="primary-button">Explore</button></a>
+                <a href="<?= $proj_root ?>contact"><button class="secondary-button">Contact Us</button></a>
             </div>
         </section>
 

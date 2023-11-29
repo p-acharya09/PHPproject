@@ -1,5 +1,5 @@
 <?php 
-$base_path = '/';
+$proj_root = '/';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -30,10 +30,10 @@ $base_path = '/';
             <!-- Navigation Menu -->
             <nav>
                 <ul class="nav-items" id="nav-items">
-                    <li><a href="<?= $base_path?>">Home</a></li>
-                    <li><a href="<?= $base_path?>about">About</a></li>
-                    <li><a href="<?= $base_path?>media">Media</a></li>
-                    <li><a href="<?= $base_path?>contact">Contact</a></li>
+                    <li><a href="<?= $proj_root?>">Home</a></li>
+                    <li><a href="<?= $proj_root?>about">About</a></li>
+                    <li><a href="<?= $proj_root?>media">Media</a></li>
+                    <li><a href="<?= $proj_root?>contact">Contact</a></li>
                 </ul>
                 
                 <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
