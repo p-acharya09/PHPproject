@@ -16,7 +16,8 @@ $routes = [
     '/admintables' => 'controllers/admin/list.php',
     '/admindelete/'.$id => 'controllers/admin/delete.php',
     '/adminabout' => 'controllers/admin/about.php',
-    '/adminsettings' => 'controllers/admin/settings.php'
+    '/adminsettings' => 'controllers/admin/settings.php',
+    '/handleform' => 'controllers/handleform.php'
 ];
 
 function routeToController($uri, $routes) {

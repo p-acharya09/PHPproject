@@ -18,22 +18,22 @@
         <!-- Contact Message Section -->
         <section class="contact-us-message">
             <h4>Send Us Your Message</h4>
-            <form>
+            <form method= "POST" action="/handleform">
                 <div class="form-row">
                     <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
+                    <input type="text" id="name" name="name" required>
                   </div>
                   <div class="form-row">
                     <label for="email">Email:</label>
-                    <input type="email" id="email" name="email">
+                    <input type="email" id="email" name="email" required>
                   </div>
                   <div class="form-row">
                     <label for="phone">Phone:</label>
-                    <input type="text" id="phone" name="phone">
+                    <input type="text" id="phone" name="phone" required>
                   </div>
                   <div class="form-row">
                     <label for="message">Message:</label>
-                    <textarea id="message" name="message"></textarea>
+                    <textarea id="message" name="message" required></textarea>
                   </div>
                   <div class="form-row">
                     <input class="button-submit" type="submit" value="Submit">

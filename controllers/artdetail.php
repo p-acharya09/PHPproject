@@ -16,5 +16,5 @@ $list = $db->query('select * from media where id='.$id)->fetch();
 $listall = $db->query('select * from media')->fetchAll();
 $listall = array_slice($listall, 0, 8);
 
-require "views/artdetail.view.php"; 
+require "views/artdetail.view.php";
 ?>
