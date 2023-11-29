@@ -1,8 +1,11 @@
 <?php
     session_start();
+    $proj_root = '/';
+
 
     if (!isset($_SESSION['authenticated']) || $_SESSION['authenticated'] !== true){
-    header('Location:/login');
+    header('Location:'.$proj_root.'login');
+
     exit;
 }
 ?>

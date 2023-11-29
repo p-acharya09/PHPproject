@@ -1,3 +1,6 @@
+<?php 
+    $proj_root = '/';
+?>
 <?php include'partials/header.php';?>
 <!-- Hero Section -->
         <section class="hero">
@@ -17,14 +20,14 @@
             <h2>Popular</h2>
             <div class="popular-art-figure">
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="Nabin K Bhattarai" src="./images/nkb.jpeg">
                     <figcaption>Nabin K Bhattarai</figcaption>
                     <p>Popular Nepali Singer</p>
                     </a>
                 </figure>
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="Old Man" src="./images/ol.jpeg">
                     <figcaption>Man</figcaption>
                     <p>Lorem Ipsum </p>
@@ -32,7 +35,7 @@
                 </figure>
                 <?php foreach($limitedData as $data):?>
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="<?= $data['title']?>" src="./images/horse.jpeg">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>
@@ -48,14 +51,14 @@
             <h2>Latest</h2>
             <div class="latest-art-figure">
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="Thanos" src="./images/thanos.jpeg">
                     <figcaption>Thanos</figcaption>
                     <p>Marvel Cinematic Universe</p>
                     </a>
                 </figure>
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="Wall Cry" src="./images/wallcry.jpeg">
                     <figcaption>Wall Cry</figcaption>
                     <p>Lorem Ipsum</p>
@@ -63,7 +66,7 @@
                 </figure>
                 <?php foreach($limitedData as $data):?>
                 <figure>
-                    <a href="artdetail">
+                    <a href="<?= $proj_root ?>artdetail">
                     <img title="<?= $data['title']?>" src="./images/horse.jpeg">
                     <figcaption><?= $data['title']?></figcaption>
                     <p><?= $data['subtitle']?> </p>

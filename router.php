@@ -6,7 +6,7 @@ $proj_root = '/';
 // incase of subfolders $proj_root = '/folder_name/'
 
 $routes = [
-    $proj_root.'/' => 'controllers/index.php',
+    $proj_root => 'controllers/index.php',
     $proj_root.'about' => 'controllers/about.php',
     $proj_root.'contact' => 'controllers/contact.php',
     $proj_root.'media' => 'controllers/media.php',
