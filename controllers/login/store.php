@@ -1,4 +1,6 @@
 <?php
+    $proj_root = '/';
+
     $email = $_POST['email'];
     $password = $_POST['password'];
 
@@ -16,7 +18,7 @@
         $_SESSION["authenticated"] = true;
 
         // Redirect to the admin forms page
-        header("Location: /adminforms");
+        header("Location:".$proj_root."adminforms");
     } else {
         $errors['error'] = "Invalid Email or Password";
         require('views/login/create.view.php');

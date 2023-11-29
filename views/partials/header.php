@@ -1,3 +1,6 @@
+<?php 
+$proj_root = '/';
+?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -27,10 +30,10 @@
             <!-- Navigation Menu -->
             <nav>
                 <ul class="nav-items" id="nav-items">
-                    <li><a href="/">Home</a></li>
-                    <li><a href="about">About</a></li>
-                    <li><a href="media">Media</a></li>
-                    <li><a href="contact">Contact</a></li>
+                    <li><a href="<?= $proj_root?>">Home</a></li>
+                    <li><a href="<?= $proj_root?>about">About</a></li>
+                    <li><a href="<?= $proj_root?>media">Media</a></li>
+                    <li><a href="<?= $proj_root?>contact">Contact</a></li>
                 </ul>
                 
                 <a class="toggle" onclick="showNav()"><i class="fa fa-bars"></i></a>
